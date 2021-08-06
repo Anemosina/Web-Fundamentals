@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", "Arial", "Helvetica", sans-serif;
+}
+body{
+    background-color: #F4F5F7;
+}
+main{
+    background-color: #fff;
+    margin: 0 10rem;
+}
+main section{
+    text-align: center;
+}
+main section h3{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    color: #BBBBBB;
+    font-weight: lighter;
+    
+}
+main section h3:first-of-type{
+    color: #333;
+    font-weight: bold;
+    border-right: 2px solid #333;
+    padding-right: 50px;
+}
+.data{
+    display: block;
+}
+
+.data input{
+    border: none;
+    border-bottom: 2px solid #BBBBBB;
+    width: 40%;
+    flex: 1 1 auto;
+    padding: 0.8rem 3rem;
+    outline: none;
+    background: transparent;
+    z-index: 2;
+    order: 2;
+    margin: 1rem;
+}
+
+.data i {
+    position: relative;
+    bottom: -1px;
+    right: -44px;
+}
+
+.button{
+    width: 20%;
+    text-align: center;
+    background-color: #44A9F8;
+    text-decoration: none;
+    padding: 15px 60px;
+    color: #fff;
+    margin: 2rem;
+}
+section h3:hover{
+    color: #44A9F8;
+    cursor: pointer;
+
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #6DCCF3;
+}
+
+span:nth-child(2){
+    margin-bottom: 2rem;
+}
+#margin{
+    margin: 2rem 0;
+}
+#header_logo{
+    width: 10%;
+    margin: 1rem auto;
+    display: block;
+}
+section#links_header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 10rem;
+    
+}
+section#links_header a:-webkit-any-link{
+    cursor: pointer;
+}
+section#links_header a img{
+    height: 3rem;
+    width: 10rem;
+}
+
+section#fav{
+    width: 100%;
+    display: flex;
+}
+section#fav i{
+    color: #fff;
+    padding-right: 10px;
+}
+section#fav a{
+    text-decoration: none;
+    color: #fff;
+}
+section#fav div#facebook {
+    width: 50%;
+    background-color: #48629c;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#fav div#facebook:hover {
+    width: 50%;
+    background-color: #6DCCF3;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+section#fav div#google {
+    width: 50%;
+    background-color: #db4b38;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#fav div#google:hover {
+    width: 50%;
+    background-color: #6DCCF3;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
