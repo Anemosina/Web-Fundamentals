@@ -1,0 +1,132 @@
+html, body {
+    height: 100vh;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    background: rgb(45,208,246);
+    background: linear-gradient(90deg, rgba(45,208,246,1) 0%, rgba(206,197,246,1) 45%, rgba(250,243,255,1) 100%);
+}
+body{
+    margin: 0;
+}
+main{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+
+    background-color: #fff;
+    border-radius: 0.3rem;
+    width: 80%;
+
+}
+h2{
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.3333;
+    padding-left: 3rem ;
+    padding-top: 1rem;
+
+}
+h2#headfirst{
+    color: rgb(64, 64, 247);
+
+}
+h2#headsecond{
+    color: #fff;
+}
+#flex{
+    width: 100%;
+    display: flex;
+}
+/*left section*/
+section#left{
+    float: right;
+    width: 50%;
+}
+.clear{
+    display: block;
+}
+
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    width: 90%;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+div.inp{
+    display: block;
+    width: 100;
+    padding: 0 10%;
+}
+i{
+    position: relative;
+    height: 10px;
+    width: 10px;
+    left: -3%;
+    color: rgb(150, 147, 147);
+}
+.innputblock{
+    display: block;
+    width: 100%;
+}
+.inputinner{
+    box-sizing: border-box;
+    width: 47%;
+    float: left;
+
+}
+aside input:first-of-type{
+    margin-top: 1rem;
+}
+.transperant{
+    background: transparent;
+    border-color:#fff;
+}
+.transperant::placeholder{
+    color: #fff;
+
+} 
+#color{
+    color: #fff;
+}
+label{
+    color: #fff;
+}
+
+
+#mainleft{
+    display: block;
+}
+.new{
+    width: 5%;
+    padding: 0;
+    margin-left: -0.5rem;
+}
+
+a{
+    color: #fff;
+}
+button{
+    background-color: #fff;
+    border: 1px solid #eee;
+    margin-left: 10%;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-bottom: 5%;
+}
+
+
+aside{
+    float: left;
+    width: 50%;
+    background-color: rgb(64, 64, 247);
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+
+}
