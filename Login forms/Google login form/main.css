@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+body{
+    margin: 0;
+}
+main{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img, h1, a, p, span{
+    display: block;
+}
+h1{
+    text-align: center;
+    color: #202124;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+}
+img{
+    width: 40%;
+    margin: 0 auto;
+}
+#border{
+    border: 1px solid rgb(218,220,224);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+#head{
+    text-align: center;
+    color: #202124;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+#form{
+    display: block;
+}
+#form input{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    padding: 17px;
+}
+   
+form a{
+    color: #1a73e8;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: .25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+form a:first-of-type{
+    padding-top: 10px;
+
+}
+form p{
+    color: #5f6368;
+    font-size: 14px;
+    line-height: 1.4286;
+    margin-top: 2rem;
+    margin-top: 2rem;
+}
+#bottom{
+    margin-top: 2rem;
+}
+button{
+    float: right;
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid #1a73e8;
+    background-color: #1a73e8;
+    border-radius: 0.3rem;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: #1861c0;
+    cursor: pointer;
+}
+#bottom a{
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    
+    font-weight: 500;
+    text-transform: none;
+    font-weight: 600;
+    letter-spacing: .15px;
+}
+#state{
+
+    font-size: 14px;
+    color: #202124;
+}
+ul{
+    list-style-type:none;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+
+    text-decoration: none;
+    font-size: 14px;
+    color: #757575;
+    margin: 0 auto;
+    
+}
+#footer{
+    display: block;
+    width: 100%;
+
+}
+#footer div:first-of-type{
+    display: inline-block;
+    width: 60%;
+
+}
+#footer div:last-of-type{
+    display: inline-block;
+    float: right;
+    width: 40%;
+
+}
