@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    background-color: rgb(121, 75, 111);
+}
+body{
+    margin: 0;
+}
+main{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    color: #fff;
+    padding-left: 1rem;
+    text-transform: uppercase;
+}
+.black{
+    color: #333;
+    padding-left: 1rem;
+    text-transform: uppercase;
+}
+
+.background{
+    background-color: #fff;
+}
+.border{
+    box-sizing: border-box;
+    width: 98%;
+    height: 95%;
+    border: 5px solid #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    margin: auto;
+}
+.left{
+    margin-right: 5rem;
+    margin-top: -5rem;
+}
+
+
+.right{
+    width: 50%;
+    margin-top: -5rem;
+}
+legend{
+    background-color: rgb(2, 194, 195);
+    color: #fff;
+    padding: 7px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+fieldset{
+    background-color: #fff;
+    border: 0;
+}
+input{
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1rem;
+    border:2px solid rgb(2, 194, 195);
+    border-radius: 0.3rem;
+    padding: 4px;
+}
+label{
+    font-size: 0.8rem;
+}
+button{
+    background-color: rgb(2, 194, 195);
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 10px;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
