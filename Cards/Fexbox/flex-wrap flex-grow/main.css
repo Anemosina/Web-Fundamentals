@@ -1,0 +1,16 @@
+body{
+    padding: 5rem;
+    background-color: #eee;
+}
+.box{
+    display: flex;
+    background-color: lightblue;
+    height: 300px;
+    flex-wrap: wrap;
+}
+.items{
+    border: 1px solid black;
+    width: 40%;
+    /*flex: 0 0 40%;*/ /*няма да се оголемяваш, няма да се увеличаваш, но ще си 40%*/
+    flex: 1 0 40%;
+}

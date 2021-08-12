@@ -1,0 +1,20 @@
+body{
+    padding: 5rem;
+    background-color: #eee;
+}
+.box{
+    display: flex;
+    background-color: lightblue;
+    height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.items{
+    border: 1px solid black;
+    /*flex: 0 0 40%;*/ /*няма да се оголемяваш, няма да се увеличаваш, но ще си 40%*/
+    flex: 1 0 10rem;
+}
+.items:last-child{
+    margin-right: auto;
+    margin-left: calc((100% -(30rem+6px)) / 2);
+}

@@ -1,0 +1,48 @@
+body{
+    padding: 5rem;
+    background-color: #eee;
+}
+.card{
+    background-color: #fff;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    width: 28%;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.3);
+    margin: 2rem;
+    float: left;
+}
+.card .media{
+    position: relative;
+    overflow: hidden;
+}
+.card .media:after{
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+.card .media img{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.content{
+    padding: 1rem;
+    overflow: hidden;
+}
+.card .content h3{
+    margin: 0 0 0.2 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.content a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #090;
+    float: right;
+    padding: 7px 20px;
+    border-radius: 0.3rem;
+}
