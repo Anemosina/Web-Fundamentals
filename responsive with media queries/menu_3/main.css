@@ -1,6 +1,11 @@
 @import url('navigation.css');
 html{
     font: 16px/1.5 "Verdana", sans-serif;
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+
 }
 body{
     padding: 2rem;
