@@ -1,0 +1,39 @@
+.main ul{
+    margin: 0;
+    padding: 0;
+}
+.main > ul {
+    display: flex;
+}
+.main li:hover> a,
+.main a:hover {
+    text-decoration: underline;
+
+}
+.main li:hover > ul{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: inherit;
+    
+}
+.main ul ul{
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 16rem;
+    transform: translateY(1rem);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.main li{
+    list-style: none outside;
+    display: block;
+    position: relative;
+}
+.main li a{
+    padding: 0.5rem 1rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
