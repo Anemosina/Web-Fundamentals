@@ -1,5 +1,6 @@
 .main{
     padding-left: 2rem;
+    flex: 1 0 auto;
 }
 .main ul{
     margin: 0;
@@ -45,10 +46,21 @@
     color: black;
 }
 .main ul ul li a{
-    padding-top: 1.5rem;
-
+    padding: 2rem 1rem 1rem 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 .main ul ul li a i,
 .main ul ul li a span{
     display: block;
+}
+.main ul ul li a .copy{
+    font-weight: bold;
+}
+.main ul ul li a .desc{
+    font-size: 0.9rem;
+    font-style: italic;
+    opacity: 0.8;
 }
