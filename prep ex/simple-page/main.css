@@ -42,6 +42,10 @@ p{
     width: 33%;
     margin-left: 1rem;
 }
-.second img{
+
+.second article:last-of-type{
+    background-image: url("https://images.unsplash.com/photo-1515169273894-7e876dcf13da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=450&q=80");
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }
