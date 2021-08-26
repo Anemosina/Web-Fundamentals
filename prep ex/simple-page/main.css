@@ -1,0 +1,47 @@
+@import url("reset.css");
+@import url("typography.css");
+body{
+    margin: 3rem;
+    background: #eee;
+}
+h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #333;
+    letter-spacing: 3px;
+}
+p{
+    color: #333;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first div{
+    border-left: 3px solid grey;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    width: 33%;
+    box-sizing: border-box;    
+}
+.first div:first-of-type{
+    width: 66%;
+}
+.first p{
+    color: grey;
+    padding: 0.5rem 0;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+}
+.second article{
+    width: 33%;
+    margin-left: 1rem;
+}
+.second img{
+
+}
